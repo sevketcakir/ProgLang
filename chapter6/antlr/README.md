@@ -1,7 +1,9 @@
 # antlr kullanýmý
-Örnek grameri kullanarak java kodlarýný oluþturma
+###Örnek grameri kullanarak java kodlarýný oluþturma
 ```antlr Expr.g4```
-Java kodlarýný derleme
+
+###Java kodlarýný derleme
 ```javac Expr*.java```
-Sözdizim aðacýný çizidrme
+
+###Sözdizim aðacýný çizidrme
 ```grun Expr prog -gui```
