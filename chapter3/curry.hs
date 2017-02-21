@@ -10,3 +10,8 @@ flatten (Node val left right)=(flatten left)++[val]++(flatten right)
 --map (\x->x+5) [1,2,3,4,5]
 square_list lis = [ x*x | x<-lis]
 square_positive_list lis = [ x*x | x<-lis,x>0]
+
+fact n = product [1..n]
+
+main::IO()
+main = putStrLn "Hello World!"
