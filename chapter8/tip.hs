@@ -1,0 +1,1 @@
+topla x = x + x
